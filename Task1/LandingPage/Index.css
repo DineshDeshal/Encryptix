@@ -1,0 +1,172 @@
+body{
+    background: linear-gradient(45deg, rgb(250, 252, 252),rgb(249, 249, 250),black);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+    
+
+}
+.tags{
+    display: flex;
+    justify-content: space-around;
+color: #eee6bc;
+   gap: 2em;
+}
+.main-page{
+    text-align: center;
+}
+
+.heading{
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    margin: 2em;
+    color: #ffd401;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+.bicycle-img{
+    margin-right: 2em;
+}
+
+
+.bicycle-img img{
+    height: 35em;
+    width: 35em;
+    border-radius: 1em;
+    background: transparent;
+}
+.discription{
+    width: 40em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.discription h1{
+   
+    margin: 1em;
+    color: #ffd401;
+}
+.discription h3{
+    
+    margin: 1em;
+    color: #ffd401;
+}
+.discription h5{
+    
+    margin: 1em;
+    color: rgb(42, 43, 43);
+}
+.discription button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+background: #ffd401;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(30, 27, 27);
+  
+}
+
+button:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #ffd401;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+    color: black;
+    
+}
+
+button:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+}
+
+button span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: 700;
+    
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover span {
+    color: rgb(110, 221, 240);
+    animation: scaleUp 0.3s ease-in-out;
+    color: black;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bubbles{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+.bubble{
+    
+    height: 8em;
+    width: 8em;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #292512;
+    box-shadow: 0px 0px 5cqmaxrgb(107, 106, 99)1;
+    margin: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    
+}
+.bubble:hover{
+    animation: check 1s ease infinite;
+}
+@keyframes check{
+    0%{
+        border: 2px solid yellow;
+    }
+    30%{
+        border: 2px solid rgb(12, 11, 11);
+    }
+    50%{
+        border: 2px solid rgb(233, 236, 45);
+    }
+    100%{
+        border: 2px solid rgb(2, 2, 2);
+    }
+}

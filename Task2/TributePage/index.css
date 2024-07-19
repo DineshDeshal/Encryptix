@@ -1,0 +1,67 @@
+body{
+    margin: 0%;
+        padding: 0%;
+}
+
+
+.nav{
+    height: 80px;
+   
+    background: linear-gradient(45deg,yellow,rgb(247, 178, 18),rgb(241, 241, 157));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+    text-align: center;
+}
+.life{
+    height: 30px;
+      
+        background: linear-gradient(45deg, yellow, rgb(229, 227, 221), rgb(241, 241, 157));
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        font-size: x-large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+.sub-life{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2em;
+    
+
+
+}
+.life-words{
+    width: 40%;
+    font-size: 25px;
+   margin-top: 5px;
+    font-weight: 300;
+}
+.pm-img{
+    display: flex;
+    justify-content: center;
+   
+}
+.pm-img img{
+    border-radius: 20px;
+}
+.life-word{
+    font-size: 25px;
+    margin: 2em;
+    font-weight: 300;
+
+}
+.cm2{
+    
+        font-size: 25px;
+        margin: 2em;
+        font-weight: 300;
+}
